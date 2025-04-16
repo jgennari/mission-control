@@ -7,7 +7,7 @@
 #include "Arduino.h"
 #include "Adafruit_NeoPixel.h"
 
-#define PIN 6
+#define PIN 26
 #define NUM_PIXELS 16
 
 Adafruit_NeoPixel pixels(NUM_PIXELS, PIN, NEO_GRB + NEO_KHZ800);
